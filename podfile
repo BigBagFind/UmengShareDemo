@@ -1,0 +1,4 @@
+target:UmengShareDemo do
+platform :ios,'5.0'
+pod 'UMengSocialCOM', '~> 5.2.1'
+end

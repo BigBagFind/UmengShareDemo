@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A0A6AA1D6EE8390086AD86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6A91D6EE8390086AD86 /* main.m */; };
+		08A0A6AD1D6EE8390086AD86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6AC1D6EE8390086AD86 /* AppDelegate.m */; };
+		08A0A6B01D6EE8390086AD86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6AF1D6EE8390086AD86 /* ViewController.m */; };
+		08A0A6B31D6EE8390086AD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6B11D6EE8390086AD86 /* Main.storyboard */; };
+		08A0A6B51D6EE8390086AD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6B41D6EE8390086AD86 /* Assets.xcassets */; };
+		08A0A6B81D6EE8390086AD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6B61D6EE8390086AD86 /* LaunchScreen.storyboard */; };
+		08A0A6C31D6EE83A0086AD86 /* UmengShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6C21D6EE83A0086AD86 /* UmengShareDemoTests.m */; };
+		08A0A6CE1D6EE83A0086AD86 /* UmengShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6CD1D6EE83A0086AD86 /* UmengShareDemoUITests.m */; };
+		08A0A6E81D6EE84D0086AD86 /* share_friend.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6DD1D6EE84D0086AD86 /* share_friend.png */; };
+		08A0A6E91D6EE84D0086AD86 /* share_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6DE1D6EE84D0086AD86 /* share_qq.png */; };
+		08A0A6EA1D6EE84D0086AD86 /* share_qqzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6DF1D6EE84D0086AD86 /* share_qqzone.png */; };
+		08A0A6EB1D6EE84D0086AD86 /* share_sina.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6E01D6EE84D0086AD86 /* share_sina.png */; };
+		08A0A6EC1D6EE84D0086AD86 /* share_wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6E11D6EE84D0086AD86 /* share_wechat.png */; };
+		08A0A6ED1D6EE84D0086AD86 /* TggShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6E31D6EE84D0086AD86 /* TggShareCell.m */; };
+		08A0A6EE1D6EE84D0086AD86 /* TggShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6E51D6EE84D0086AD86 /* TggShareItem.m */; };
+		08A0A6EF1D6EE84D0086AD86 /* TggShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6E71D6EE84D0086AD86 /* TggShareView.m */; };
+		08A0A6F21D6EEDE80086AD86 /* TggUpDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6F11D6EEDE80086AD86 /* TggUpDownButton.m */; };
+		08A0A6F51D6F2FFF0086AD86 /* TggEasyTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6F41D6F2FFF0086AD86 /* TggEasyTool.m */; };
+		08A0A6F81D6F3A060086AD86 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6F71D6F3A060086AD86 /* UIViewExt.m */; };
+		08A0A6FB1D6FD89D0086AD86 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A0A6FA1D6FD89D0086AD86 /* UIView+ViewController.m */; };
+		08A0A6FD1D6FD8C50086AD86 /* tgg_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A0A6FC1D6FD8C50086AD86 /* tgg_icon.png */; };
+		45DDF7EBBCD1C977D7527521 /* libPods-UmengShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7A15BA3C79C43903C3A292 /* libPods-UmengShareDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A0A6BF1D6EE83A0086AD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A0A69D1D6EE8390086AD86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A0A6A41D6EE8390086AD86;
+			remoteInfo = UmengShareDemo;
+		};
+		08A0A6CA1D6EE83A0086AD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A0A69D1D6EE8390086AD86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A0A6A41D6EE8390086AD86;
+			remoteInfo = UmengShareDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A0A6A51D6EE8390086AD86 /* UmengShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UmengShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A0A6A91D6EE8390086AD86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08A0A6AB1D6EE8390086AD86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08A0A6AC1D6EE8390086AD86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08A0A6AE1D6EE8390086AD86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08A0A6AF1D6EE8390086AD86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08A0A6B21D6EE8390086AD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08A0A6B41D6EE8390086AD86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08A0A6B71D6EE8390086AD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08A0A6B91D6EE8390086AD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A0A6BE1D6EE83A0086AD86 /* UmengShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmengShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A0A6C21D6EE83A0086AD86 /* UmengShareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UmengShareDemoTests.m; sourceTree = "<group>"; };
+		08A0A6C41D6EE83A0086AD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A0A6C91D6EE83A0086AD86 /* UmengShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmengShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A0A6CD1D6EE83A0086AD86 /* UmengShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UmengShareDemoUITests.m; sourceTree = "<group>"; };
+		08A0A6CF1D6EE83A0086AD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A0A6DD1D6EE84D0086AD86 /* share_friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_friend.png; sourceTree = "<group>"; };
+		08A0A6DE1D6EE84D0086AD86 /* share_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_qq.png; sourceTree = "<group>"; };
+		08A0A6DF1D6EE84D0086AD86 /* share_qqzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_qqzone.png; sourceTree = "<group>"; };
+		08A0A6E01D6EE84D0086AD86 /* share_sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_sina.png; sourceTree = "<group>"; };
+		08A0A6E11D6EE84D0086AD86 /* share_wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_wechat.png; sourceTree = "<group>"; };
+		08A0A6E21D6EE84D0086AD86 /* TggShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TggShareCell.h; sourceTree = "<group>"; };
+		08A0A6E31D6EE84D0086AD86 /* TggShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TggShareCell.m; sourceTree = "<group>"; };
+		08A0A6E41D6EE84D0086AD86 /* TggShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TggShareItem.h; sourceTree = "<group>"; };
+		08A0A6E51D6EE84D0086AD86 /* TggShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TggShareItem.m; sourceTree = "<group>"; };
+		08A0A6E61D6EE84D0086AD86 /* TggShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TggShareView.h; sourceTree = "<group>"; };
+		08A0A6E71D6EE84D0086AD86 /* TggShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TggShareView.m; sourceTree = "<group>"; };
+		08A0A6F01D6EEDE80086AD86 /* TggUpDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TggUpDownButton.h; sourceTree = "<group>"; };
+		08A0A6F11D6EEDE80086AD86 /* TggUpDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TggUpDownButton.m; sourceTree = "<group>"; };
+		08A0A6F31D6F2FFF0086AD86 /* TggEasyTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TggEasyTool.h; sourceTree = "<group>"; };
+		08A0A6F41D6F2FFF0086AD86 /* TggEasyTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TggEasyTool.m; sourceTree = "<group>"; };
+		08A0A6F61D6F3A060086AD86 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		08A0A6F71D6F3A060086AD86 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		08A0A6F91D6FD89D0086AD86 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		08A0A6FA1D6FD89D0086AD86 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		08A0A6FC1D6FD8C50086AD86 /* tgg_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tgg_icon.png; sourceTree = "<group>"; };
+		1E7A15BA3C79C43903C3A292 /* libPods-UmengShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UmengShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3BB9541A09564C763FE526 /* Pods-UmengShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmengShareDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UmengShareDemo/Pods-UmengShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB7AF59C68AD85093066B7F7 /* Pods-UmengShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmengShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UmengShareDemo/Pods-UmengShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A0A6A21D6EE8390086AD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DDF7EBBCD1C977D7527521 /* libPods-UmengShareDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A0A6BB1D6EE83A0086AD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A0A6C61D6EE83A0086AD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A0A69C1D6EE8390086AD86 = {
+			isa = PBXGroup;
+			children = (
+				08A0A6A71D6EE8390086AD86 /* UmengShareDemo */,
+				08A0A6C11D6EE83A0086AD86 /* UmengShareDemoTests */,
+				08A0A6CC1D6EE83A0086AD86 /* UmengShareDemoUITests */,
+				08A0A6A61D6EE8390086AD86 /* Products */,
+				E13771DFB69FA8051E7464FD /* Pods */,
+				0E84BCCFEC6E557BFA484A14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08A0A6A61D6EE8390086AD86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A0A6A51D6EE8390086AD86 /* UmengShareDemo.app */,
+				08A0A6BE1D6EE83A0086AD86 /* UmengShareDemoTests.xctest */,
+				08A0A6C91D6EE83A0086AD86 /* UmengShareDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A0A6A71D6EE8390086AD86 /* UmengShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				08A0A6AB1D6EE8390086AD86 /* AppDelegate.h */,
+				08A0A6AC1D6EE8390086AD86 /* AppDelegate.m */,
+				08A0A6F91D6FD89D0086AD86 /* UIView+ViewController.h */,
+				08A0A6FA1D6FD89D0086AD86 /* UIView+ViewController.m */,
+				08A0A6AE1D6EE8390086AD86 /* ViewController.h */,
+				08A0A6AF1D6EE8390086AD86 /* ViewController.m */,
+				08A0A6F31D6F2FFF0086AD86 /* TggEasyTool.h */,
+				08A0A6F41D6F2FFF0086AD86 /* TggEasyTool.m */,
+				08A0A6F61D6F3A060086AD86 /* UIViewExt.h */,
+				08A0A6F71D6F3A060086AD86 /* UIViewExt.m */,
+				08A0A6FC1D6FD8C50086AD86 /* tgg_icon.png */,
+				08A0A6DB1D6EE84D0086AD86 /* TggShareView */,
+				08A0A6B11D6EE8390086AD86 /* Main.storyboard */,
+				08A0A6B41D6EE8390086AD86 /* Assets.xcassets */,
+				08A0A6B61D6EE8390086AD86 /* LaunchScreen.storyboard */,
+				08A0A6B91D6EE8390086AD86 /* Info.plist */,
+				08A0A6A81D6EE8390086AD86 /* Supporting Files */,
+			);
+			path = UmengShareDemo;
+			sourceTree = "<group>";
+		};
+		08A0A6A81D6EE8390086AD86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A0A6A91D6EE8390086AD86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08A0A6C11D6EE83A0086AD86 /* UmengShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				08A0A6C21D6EE83A0086AD86 /* UmengShareDemoTests.m */,
+				08A0A6C41D6EE83A0086AD86 /* Info.plist */,
+			);
+			path = UmengShareDemoTests;
+			sourceTree = "<group>";
+		};
+		08A0A6CC1D6EE83A0086AD86 /* UmengShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08A0A6CD1D6EE83A0086AD86 /* UmengShareDemoUITests.m */,
+				08A0A6CF1D6EE83A0086AD86 /* Info.plist */,
+			);
+			path = UmengShareDemoUITests;
+			sourceTree = "<group>";
+		};
+		08A0A6DB1D6EE84D0086AD86 /* TggShareView */ = {
+			isa = PBXGroup;
+			children = (
+				08A0A6DC1D6EE84D0086AD86 /* Resource */,
+				08A0A6E21D6EE84D0086AD86 /* TggShareCell.h */,
+				08A0A6E31D6EE84D0086AD86 /* TggShareCell.m */,
+				08A0A6E41D6EE84D0086AD86 /* TggShareItem.h */,
+				08A0A6E51D6EE84D0086AD86 /* TggShareItem.m */,
+				08A0A6E61D6EE84D0086AD86 /* TggShareView.h */,
+				08A0A6E71D6EE84D0086AD86 /* TggShareView.m */,
+				08A0A6F01D6EEDE80086AD86 /* TggUpDownButton.h */,
+				08A0A6F11D6EEDE80086AD86 /* TggUpDownButton.m */,
+			);
+			path = TggShareView;
+			sourceTree = "<group>";
+		};
+		08A0A6DC1D6EE84D0086AD86 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				08A0A6DD1D6EE84D0086AD86 /* share_friend.png */,
+				08A0A6DE1D6EE84D0086AD86 /* share_qq.png */,
+				08A0A6DF1D6EE84D0086AD86 /* share_qqzone.png */,
+				08A0A6E01D6EE84D0086AD86 /* share_sina.png */,
+				08A0A6E11D6EE84D0086AD86 /* share_wechat.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0E84BCCFEC6E557BFA484A14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A15BA3C79C43903C3A292 /* libPods-UmengShareDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E13771DFB69FA8051E7464FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D3BB9541A09564C763FE526 /* Pods-UmengShareDemo.debug.xcconfig */,
+				CB7AF59C68AD85093066B7F7 /* Pods-UmengShareDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A0A6A41D6EE8390086AD86 /* UmengShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A0A6D21D6EE83A0086AD86 /* Build configuration list for PBXNativeTarget "UmengShareDemo" */;
+			buildPhases = (
+				0FE56646183BB72350C5C3FC /* [CP] Check Pods Manifest.lock */,
+				08A0A6A11D6EE8390086AD86 /* Sources */,
+				08A0A6A21D6EE8390086AD86 /* Frameworks */,
+				08A0A6A31D6EE8390086AD86 /* Resources */,
+				EE9A757EAC2296C1F23D7667 /* [CP] Embed Pods Frameworks */,
+				A995BDA7966BECD9C63D3B6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UmengShareDemo;
+			productName = UmengShareDemo;
+			productReference = 08A0A6A51D6EE8390086AD86 /* UmengShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08A0A6BD1D6EE83A0086AD86 /* UmengShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A0A6D51D6EE83A0086AD86 /* Build configuration list for PBXNativeTarget "UmengShareDemoTests" */;
+			buildPhases = (
+				08A0A6BA1D6EE83A0086AD86 /* Sources */,
+				08A0A6BB1D6EE83A0086AD86 /* Frameworks */,
+				08A0A6BC1D6EE83A0086AD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A0A6C01D6EE83A0086AD86 /* PBXTargetDependency */,
+			);
+			name = UmengShareDemoTests;
+			productName = UmengShareDemoTests;
+			productReference = 08A0A6BE1D6EE83A0086AD86 /* UmengShareDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08A0A6C81D6EE83A0086AD86 /* UmengShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A0A6D81D6EE83A0086AD86 /* Build configuration list for PBXNativeTarget "UmengShareDemoUITests" */;
+			buildPhases = (
+				08A0A6C51D6EE83A0086AD86 /* Sources */,
+				08A0A6C61D6EE83A0086AD86 /* Frameworks */,
+				08A0A6C71D6EE83A0086AD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A0A6CB1D6EE83A0086AD86 /* PBXTargetDependency */,
+			);
+			name = UmengShareDemoUITests;
+			productName = UmengShareDemoUITests;
+			productReference = 08A0A6C91D6EE83A0086AD86 /* UmengShareDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A0A69D1D6EE8390086AD86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "铁哥哥";
+				TargetAttributes = {
+					08A0A6A41D6EE8390086AD86 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					08A0A6BD1D6EE83A0086AD86 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08A0A6A41D6EE8390086AD86;
+					};
+					08A0A6C81D6EE83A0086AD86 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 08A0A6A41D6EE8390086AD86;
+					};
+				};
+			};
+			buildConfigurationList = 08A0A6A01D6EE8390086AD86 /* Build configuration list for PBXProject "UmengShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08A0A69C1D6EE8390086AD86;
+			productRefGroup = 08A0A6A61D6EE8390086AD86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A0A6A41D6EE8390086AD86 /* UmengShareDemo */,
+				08A0A6BD1D6EE83A0086AD86 /* UmengShareDemoTests */,
+				08A0A6C81D6EE83A0086AD86 /* UmengShareDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A0A6A31D6EE8390086AD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A0A6E91D6EE84D0086AD86 /* share_qq.png in Resources */,
+				08A0A6EC1D6EE84D0086AD86 /* share_wechat.png in Resources */,
+				08A0A6FD1D6FD8C50086AD86 /* tgg_icon.png in Resources */,
+				08A0A6EA1D6EE84D0086AD86 /* share_qqzone.png in Resources */,
+				08A0A6B81D6EE8390086AD86 /* LaunchScreen.storyboard in Resources */,
+				08A0A6E81D6EE84D0086AD86 /* share_friend.png in Resources */,
+				08A0A6B51D6EE8390086AD86 /* Assets.xcassets in Resources */,
+				08A0A6EB1D6EE84D0086AD86 /* share_sina.png in Resources */,
+				08A0A6B31D6EE8390086AD86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A0A6BC1D6EE83A0086AD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A0A6C71D6EE83A0086AD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE56646183BB72350C5C3FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A995BDA7966BECD9C63D3B6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UmengShareDemo/Pods-UmengShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9A757EAC2296C1F23D7667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UmengShareDemo/Pods-UmengShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A0A6A11D6EE8390086AD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A0A6B01D6EE8390086AD86 /* ViewController.m in Sources */,
+				08A0A6AD1D6EE8390086AD86 /* AppDelegate.m in Sources */,
+				08A0A6F51D6F2FFF0086AD86 /* TggEasyTool.m in Sources */,
+				08A0A6FB1D6FD89D0086AD86 /* UIView+ViewController.m in Sources */,
+				08A0A6EE1D6EE84D0086AD86 /* TggShareItem.m in Sources */,
+				08A0A6F81D6F3A060086AD86 /* UIViewExt.m in Sources */,
+				08A0A6F21D6EEDE80086AD86 /* TggUpDownButton.m in Sources */,
+				08A0A6EF1D6EE84D0086AD86 /* TggShareView.m in Sources */,
+				08A0A6ED1D6EE84D0086AD86 /* TggShareCell.m in Sources */,
+				08A0A6AA1D6EE8390086AD86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A0A6BA1D6EE83A0086AD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A0A6C31D6EE83A0086AD86 /* UmengShareDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A0A6C51D6EE83A0086AD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A0A6CE1D6EE83A0086AD86 /* UmengShareDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A0A6C01D6EE83A0086AD86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A0A6A41D6EE8390086AD86 /* UmengShareDemo */;
+			targetProxy = 08A0A6BF1D6EE83A0086AD86 /* PBXContainerItemProxy */;
+		};
+		08A0A6CB1D6EE83A0086AD86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A0A6A41D6EE8390086AD86 /* UmengShareDemo */;
+			targetProxy = 08A0A6CA1D6EE83A0086AD86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08A0A6B11D6EE8390086AD86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A0A6B21D6EE8390086AD86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08A0A6B61D6EE8390086AD86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A0A6B71D6EE8390086AD86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08A0A6D01D6EE83A0086AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A0A6D11D6EE83A0086AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08A0A6D31D6EE83A0086AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3BB9541A09564C763FE526 /* Pods-UmengShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UmengShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.UmengShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT} /**";
+			};
+			name = Debug;
+		};
+		08A0A6D41D6EE83A0086AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7AF59C68AD85093066B7F7 /* Pods-UmengShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UmengShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.UmengShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT} /**";
+			};
+			name = Release;
+		};
+		08A0A6D61D6EE83A0086AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UmengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.UmengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UmengShareDemo.app/UmengShareDemo";
+			};
+			name = Debug;
+		};
+		08A0A6D71D6EE83A0086AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UmengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.UmengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UmengShareDemo.app/UmengShareDemo";
+			};
+			name = Release;
+		};
+		08A0A6D91D6EE83A0086AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UmengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.UmengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UmengShareDemo;
+			};
+			name = Debug;
+		};
+		08A0A6DA1D6EE83A0086AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UmengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiequantech.UmengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UmengShareDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A0A6A01D6EE8390086AD86 /* Build configuration list for PBXProject "UmengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A0A6D01D6EE83A0086AD86 /* Debug */,
+				08A0A6D11D6EE83A0086AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A0A6D21D6EE83A0086AD86 /* Build configuration list for PBXNativeTarget "UmengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A0A6D31D6EE83A0086AD86 /* Debug */,
+				08A0A6D41D6EE83A0086AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A0A6D51D6EE83A0086AD86 /* Build configuration list for PBXNativeTarget "UmengShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A0A6D61D6EE83A0086AD86 /* Debug */,
+				08A0A6D71D6EE83A0086AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A0A6D81D6EE83A0086AD86 /* Build configuration list for PBXNativeTarget "UmengShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A0A6D91D6EE83A0086AD86 /* Debug */,
+				08A0A6DA1D6EE83A0086AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08A0A69D1D6EE8390086AD86 /* Project object */;
+}
