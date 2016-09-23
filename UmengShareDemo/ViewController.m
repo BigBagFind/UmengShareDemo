@@ -19,22 +19,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
- 
+    /** 自定义的一个button，测试下随便出发分享页面*/
     TggUpDownButton *button = [TggUpDownButton buttonWithFrame:CGRectMake(100, 100, 100, 100)
-                                                         title:@"titlesOfButton"
+                                                         title:@"PresentShareView"
                                                           Font:[UIFont systemFontOfSize:13]
                                                        spacing:5
                                                      imageSize:CGSizeZero];
     [button setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor darkGrayColor] forState:UIControlStateHighlighted];
     [self.view addSubview:button];
     button.backgroundColor = [UIColor whiteColor];
     [button addTarget:self action:@selector(action) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    // 提示下你
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 250, self.view.frame.size.width, 50)];
+    [self.view addSubview:label];
+    label.text = @"👆👆👆点击上面的按钮就会弹出分享页面";
+    label.textColor = [UIColor blackColor];
+    
+    
 }
 
 
 - (void)action {
+    // 一句弹出不多说
     [TggShareView presentShareView];
 }
+
+
+
+
+
+
 
 
 @end
